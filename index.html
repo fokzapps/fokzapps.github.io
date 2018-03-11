@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Fokz</title>
+    <title>Fo-kz</title>
+    <link rel="stylesheet" href="/main.css">
 </head>
 
 <body>
     <div id="container">
-        <div id="hours">
-            <p>Booked focus hours:</p>
-            <strong>4hs</strong>
+        <div class="panel focus">
+            <strong class="hours">3hs</strong>
+            <br>
+            <span class="label">for focus</span>
+        </div>
+
+        <div class="panel booked">
+            <strong class="hours">23hs</strong>
+            <br>
+            <span class="label">booked</span>
+        </div>
+
+        <div class="panel unbooked">
+            <strong class="hours">14hs</strong>
+            <br>
+            <span class="label">un-booked</span>
         </div>
     </div>
+    <script src="/main.js"></script>
 </body>
 </html>

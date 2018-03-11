@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+    font-family: Roboto, Helvetica, Arial, Sans-serif;
+    font-size: 10vmin;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (orientation: portrait) {
+    html, body {
+        height: 100%;
+    }
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.panel {
+    min-width: 50vw;
+    margin-bottom: 1em;
+}
+
+.panel .hours {
+    font-size: 1.5em;
+}
+
+.focus {
+    font-size: 1.45em;
+}
+
+.focus .label {
+    text-decoration: underline;
+}
